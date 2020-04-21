@@ -2,9 +2,9 @@
 
 ***
 How to get a this Git project into your build:
-=================
-Add it in your root build.gradle at the end of repositories:
-----------------------------
+===
+###Add it in your root build.gradle at the end of repositories:
+
 `allprojects {
 		repositories {
 			...
@@ -12,9 +12,9 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}`
   
-  Notes: not add in buildscript
+  _Notes:_ not add in buildscript.
   
-  Add the dependency
+  ###Add the dependency:
   
  ` dependencies {
 	        implementation 'com.github.nans1996:CImage:1.01'
@@ -22,14 +22,14 @@ Add it in your root build.gradle at the end of repositories:
   ***
   Using the methods
   ====
-  Set dimensions of image
-  -----------
+  ###Set dimensions of image
+  
 ` ControllClass.BitmapSize(Bitmap bitmap, int heigth, int width)`
   
-  retun new bitmap
+  Retun new bitmap.
   
-  Check extension of image
-  -------
+  ###Check extension of image
+  
   `ControllClass.CheckMimetype(String mimetype, String type)`
   
   mimetype - current image expansion, type - for which you need to check.
