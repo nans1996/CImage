@@ -3,7 +3,7 @@
 ***
 How to get a this Git project into your build:
 ===
-###Add it in your root build.gradle at the end of repositories:
+### h3 Add it in your root build.gradle at the end of repositories:
 
 `allprojects {
 		repositories {
@@ -14,7 +14,7 @@ How to get a this Git project into your build:
   
   _Notes:_ not add in buildscript.
   
-  ###Add the dependency:
+  ### h3 Add the dependency:
   
  ` dependencies {
 	        implementation 'com.github.nans1996:CImage:1.01'
@@ -22,13 +22,13 @@ How to get a this Git project into your build:
   ***
   Using the methods
   ====
-  ###Set dimensions of image
+  ### h3 Set dimensions of image
   
 ` ControllClass.BitmapSize(Bitmap bitmap, int heigth, int width)`
   
   Retun new bitmap.
   
-  ###Check extension of image
+  ### h3 Check extension of image
   
   `ControllClass.CheckMimetype(String mimetype, String type)`
   
